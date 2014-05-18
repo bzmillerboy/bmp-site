@@ -1,0 +1,5 @@
+name: buckeyemoldedproducts.com
+markdown: redcarpet
+pygments: true
+exclude: ['node_modules', 'scss']
+baseurl: http://bzmillerboy.github.io/bmp/

@@ -1,0 +1,194 @@
+// customize bootstrap variables here:
+@import 'variables';
+@import 'bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap/bootstrap';
+@import 'font-awesome';
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  width:100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-rendering: optimizelegibility;
+}
+
+a:hover {text-decoration: none;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom:50px;
+}
+
+.logo {
+  max-width:400px;
+  width:70%;
+  padding:10px 5px 5px 0px;
+}
+.navbar-default {border:none; text-transform:uppercase;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  border-bottom:4px solid $brand-primary;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 17px;
+  font-weight: bold;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.contact-bar {
+  background: #F2F2F2;
+}
+.contact-bar-content a, .contact-bar-content a:hover {
+  color:$gray-light; padding-left:5px; text-decoration:none;
+}
+.contact-bar-content {
+  margin: 10px;
+}
+
+
+.product-images img {
+	width: 24%;
+}
+
+.tagline {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.tagline-well {
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.21);
+  border: none;
+  border-radius: 0px;
+  padding: 20px;
+}
+
+.navbar-collapse {
+  border:none;
+}
+
+footer {
+  text-align:center;
+  border-top: 6px solid $brand-secondary;
+  padding: 40px 0;
+  background-color: $gray-darker;
+  color: $gray-lighter;
+}
+footer a {
+  color: $gray-light;
+}
+footer a:hover {
+  color: darken($gray-light, 15%);
+}
+footer hr {
+  border-color: $gray-dark;
+}
+
+.nav-footer li {
+	display: inline;
+	padding: 0px 15px;
+	border-left: 1px solid $gray-light;
+}
+.nav-footer li:nth-child(1) {
+	border:none;
+}
+
+
+.bmp-banner-container {
+  width:100%;
+  position:relative;
+  padding:0;
+}
+ 
+.bmp-banner{
+  width:100%;
+  position:relative;
+}
+.bmp-caption {
+  padding: 20px !important;
+  text-shadow: 0px 1px 5px #000;
+  font-family: $font-family-sans-serif !important;
+}
+
+.product-highlight-container {
+  text-align: center;
+}
+
+.product-highlight-container .col-sm-4 {
+  margin-bottom: 40px;
+}
+
+
+.product-highlight {
+  text-align: center;
+  color: $gray-lighter;
+}
+.product-highlight h3, .product-highlight h2 {
+  background-color: $gray-darker;
+  text-align: center;
+  padding: 20px 5px;
+  margin-top: 20px;
+  margin: 0;
+  color: $gray-light;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.product-highlight-detail {
+  background-color: $gray;
+}
+.product-highlight p {
+  padding: 20px;
+  padding-bottom: 80px;
+}
+.product-highlight a {
+  margin-bottom: 20px;
+}
+.product-hightlight-image {
+  margin-top: -76px;
+}
+.product-highlight img {
+  background-color: $gray-lighter;
+  text-align: center;
+  padding: 20px;
+  color: $gray-light;
+}
+
+.product {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  .tagline {
+    font-size: 24px;
+    padding: 50px;
+  }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {  }
+
