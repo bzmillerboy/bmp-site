@@ -6310,24 +6310,13 @@ button.close {
 .fa-plus-square-o:before {
   content: "\f196"; }
 
-body {
+p {
   -webkit-font-smoothing: antialiased; }
 
 img {
   width: 100%; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: uppercase;
   letter-spacing: -1px;
   text-rendering: optimizelegibility; }
@@ -6342,6 +6331,20 @@ ul {
 
 section {
   margin-bottom: 50px; }
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 10px; }
+
+.page-header {
+  background-color: #222222;
+  text-align: center;
+  padding: 20px 5px;
+  margin-top: 20px;
+  margin: 0;
+  color: #999999;
+  font-weight: bold;
+  border-bottom: 1px solid #797979; }
 
 .logo {
   max-width: 400px;
@@ -6432,46 +6435,16 @@ footer hr {
   margin-bottom: 40px; }
 
 .product-highlight {
-  text-align: center;
-  color: #eeeeee;
-  margin-bottom: 40px; }
-
-.product-highlight h3, .product-highlight h2 {
-  background-color: #222222;
-  text-align: center;
-  padding: 20px 5px;
-  margin-top: 20px;
-  margin: 0;
-  color: #999999;
-  text-transform: uppercase;
-  font-weight: bold; }
+  margin-bottom: -70px; }
 
 .product-highlight-detail {
-  background-color: #555555; }
-
-.product-highlight p {
+  background-color: #555555;
+  color: #eeeeee;
   padding: 20px;
   padding-bottom: 80px; }
 
-.product-highlight a {
-  margin-bottom: 20px; }
-
 .product-hightlight-image {
-  margin-top: -76px;
   padding: 0 10px; }
-
-.product-highlight img {
-  background-color: #eeeeee;
-  text-align: center;
-  padding: 20px;
-  color: #999999; }
-
-.product {
-  margin-bottom: 100px; }
-
-hr {
-  margin-top: 0px;
-  margin-bottom: 10px; }
 
 .circle-text {
   width: 100%; }
@@ -6494,10 +6467,11 @@ hr {
   width: 100%;
   padding: 40px; }
 
+.product {
+  margin-bottom: 100px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .tagline {
     font-size: 24px;
     padding: 50px; } }
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
