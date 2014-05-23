@@ -60,7 +60,7 @@ hr {
 .contact-bar-content a, .contact-bar-content a:hover {
   color:$gray-light;
   padding-left:5px;
-  text-decoration:none;
+  text-decoration: none;
 }
 .contact-bar-content {
   margin: 10px;
@@ -119,6 +119,10 @@ footer hr {
   text-shadow: 0px 1px 5px #000;
   font-family: $font-family-sans-serif !important;
 }
+.product {
+  margin-bottom: 100px;
+  margin-top: 20px; 
+}
 .product-highlight-container {
   text-align: center;
 }
@@ -135,8 +139,32 @@ footer hr {
   padding-bottom: 80px;
 }
 .product-hightlight-image {
-  padding: 0 10px;
-}
+  padding: 0 10px; }
+
+.product-hightlight-image .carbon {
+  padding: 15% 24% 15% 24% !important; }
+
+.product-hightlight-image .metal {
+  padding: 27% 18% 15% 18% !important; }
+
+.product-hightlight-image .specialty {
+  padding: 32% 15% 15% 15% !important; }
+
+.product-hightlight-image .expoxy {
+  padding: 12% 30% 15% 30% !important; }
+
+.product-hightlight-image .copper {
+  padding: 22% 14% 15% 15% !important; }
+
+.product-hightlight-image .silver {
+  padding: 32% 10% 15% 11% !important; }
+
+.product-hightlight-image .bimolded {
+  padding: 38% 10% 15% 10% !important; }
+
+.product-hightlight-image .custom {
+  padding: 35% 11% 15% 11% !important; }
+
 .circle-text {
     width:100%;
 }
@@ -160,9 +188,6 @@ footer hr {
   float: left;
   width: 100%;
   padding: 40px;
-}
-.product {
-  margin-bottom: 100px;
 }
 
 /* Small devices (tablets, 768px and up) */
